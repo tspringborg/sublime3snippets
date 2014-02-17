@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+var obj = {};
+var val;
+\$('form input, form textarea').each(function(){
+	val = \$(this).val();
+	if(\$(this).attr('type') === 'checkbox'){
+    	val = \$(this).is(':checked');
+    }
+    obj[\$(this).attr('name')] = \$(this).val();
+})
+console.log(obj)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form2obj</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:array}[Math.floor(Math.random()*${1:array}.length)]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>array.rand</tabTrigger>
+	<description>random item in array</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

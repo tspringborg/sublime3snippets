@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/* Safari */
+-webkit-transform: rotate(${1:-90deg});
+/* Firefox */
+-moz-transform: rotate(${1:-90deg});
+/* IE */
+-ms-transform: rotate(${1:-90deg});
+/* Opera */
+-o-transform: rotate(${1:-90deg});
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=${2:3});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rotate</tabTrigger>
+	<description>css rotation</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

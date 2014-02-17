@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+//get random number in specified range
+function randRange(min, max) {
+	var randomNum = (Math.random() * (max - min)) + min;
+	return randomNum;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>randRange</tabTrigger>
+	<description>function to return random number</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

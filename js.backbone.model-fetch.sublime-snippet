@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:model}.fetch({
+    data:${2:data},
+    success:function(model, response, options){
+    },
+    error:function(model, response,options){
+    }
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bbmodelfetch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

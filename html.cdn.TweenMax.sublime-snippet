@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<!--CDN link for the latest TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<scope>text.html(.basic)</scope>
+	<description>TweenMax cdn include</description>
+	<tabTrigger>tm</tabTrigger>
+</snippet>

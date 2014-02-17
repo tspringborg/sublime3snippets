@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-box-shadow: 0 8px 12px rgba(0,0,0,0.175);
+box-shadow: 0 8px 11px rgba(0,0,0,0.175);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shadow</tabTrigger>
+	<description>css gradient</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
