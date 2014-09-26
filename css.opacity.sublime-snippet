@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[ /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=${2:50;})";
+  /* IE 5-7 */
+  filter: alpha(opacity=${2:50;});
+  /* Netscape */
+  -moz-opacity: ${1:0.5;};
+  /* Safari 1.x */
+  -khtml-opacity: ${1:0.5;};
+  /* Good browsers */
+  opacity: ${1:0.5;}]]></content>
+	<tabTrigger>opacity</tabTrigger>
+    <description>CSS - opacity: ;</description>
+    <scope>source.css</scope>
+</snippet>

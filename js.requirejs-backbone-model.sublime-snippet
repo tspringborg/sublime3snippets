@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+define(function (require) {
+
+    "use strict";
+
+    var _                   = require('underscore'),
+        Backbone            = require('backbone')
+
+    return Backbone.Model.extend({
+        url:'url',
+    	initialize : function () {    		
+    	}
+
+    });
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bbmodel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

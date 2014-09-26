@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+//this function will return the variables value or undefined if variable has no value or doesn't exist
+function getUrlParameter(name){
+   if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+      return decodeURIComponent(name[1]);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>func:getUrlParameter</tabTrigger>
+	<description>function to retrieve urlparameter</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

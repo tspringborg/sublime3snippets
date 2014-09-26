@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+define(function (require) {
+
+    "use strict";
+
+    var Backbone    = require('backbone'),
+        model    = require('model')
+
+    return Backbone.Collection.extend({
+            
+            url: "url",
+            model:model,
+            
+            initialize: function () {
+            }
+
+        })
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bbcollect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
