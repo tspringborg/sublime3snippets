@@ -1,5 +1,7 @@
 My sublime text snippets
 ======
+Not at all tested. Many of them just stolen snippets from around the web.
+
 add all sublime test snippets to the repo
 
 ```
