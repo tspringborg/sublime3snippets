@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+/*
+# Tab through stuff to rename it. #
+ 
+var ${1:ClassName}Instance = new ${2:ModuleName}(customOptions)
+
+*/
+
+var ${2:ModuleName} = (function(\$ , _) {
+
+	var options = {
+		//default private options
+		}
+	};
+
+	var ${1:ClassName} = function(customOptions){
+		if(!customOptions) customOptions = {};
+		options = _.extend({}, options,customOptions);
+	}
+
+	var ${3:privateFunction} = function(){
+		alert('this function is private');
+	}
+
+	${1:ClassName}.prototype.${3:publicFunction} = function(){
+		alert('this function is public');
+	}
+
+	return ${1:ClassName};
+
+})(jQuery, _);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger><![CDATA[jsModule]]></tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>
+		JS revealing module class with jquery and underscore.
+	</description>
+</snippet>
