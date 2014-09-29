@@ -51,7 +51,7 @@ casper.start(baseUrl, function(){
         return returnArray;
       })
   // utils.dump(snippets);
-  writeSnippets(snippets, '../js.underscore.{name}.sublime-snippet');
+  writeSnippets(snippets, '../js/underscore/js.underscore.{name}.sublime-snippet');
 });
 //then.end.
 
