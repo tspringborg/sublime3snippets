@@ -2,12 +2,9 @@
 	<content><![CDATA[
 /*
 # Tab through stuff to rename it. #
- 
-var ${1:ClassName}Instance = new ${2:ModuleName}(customOptions)
-
 */
 
-var ${2:ModuleName} = (function(\$ , _) {
+var ${1:ClassName} = (function(\$ , _) {
 
 	var options = {
 		//default private options
@@ -19,7 +16,7 @@ var ${2:ModuleName} = (function(\$ , _) {
 		options = _.extend({}, options,customOptions);
 	}
 
-	var ${3:privateFunction} = function(){
+	var ${2:privateFunction} = function(){
 		alert('this function is private');
 	}
 
