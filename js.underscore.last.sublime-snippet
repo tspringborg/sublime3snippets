@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Returns the last element of an array. Passing n will 
+returnthe last n elements of the array. */
+_.last(${1:array},${2:[n]})]]></content><tabTrigger>_.last</tabTrigger><description>last</description><scope>source.js</scope></snippet>

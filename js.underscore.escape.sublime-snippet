@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Escapes a string for insertion into HTML, replacing&amp;, &lt;, &gt;, 
+", `, and ' characters. */
+_.escape(${1:string})]]></content><tabTrigger>_.escape</tabTrigger><description>escape</description><scope>source.js</scope></snippet>

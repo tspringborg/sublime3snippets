@@ -1,0 +1,8 @@
+<snippet><content><![CDATA[/*
+Creates and returns a new debounced version of the passed 
+function whichwill postpone its execution until afterwait milliseconds have elapsed 
+since the last time itwas invoked. Useful for implementing behavior 
+that should only happenafter the input has stopped arriving. For 
+example: rendering apreview of a Markdown comment, recalculating a layout 
+after the windowhas stopped being resized, and so on. */
+_.debounce(${1:function},${2:wait},${3: [immediate]})]]></content><tabTrigger>_.debounce</tabTrigger><description>debounce</description><scope>source.js</scope></snippet>

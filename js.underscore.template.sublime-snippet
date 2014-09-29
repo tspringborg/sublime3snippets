@@ -1,0 +1,11 @@
+<snippet><content><![CDATA[/*
+Compiles JavaScript templates into functions that can be evaluatedfor rendering. 
+Useful for rendering complicated bits of HTML from JSONdata sources. 
+Template functions can both interpolate variables, using&lt;%= … %&gt;, as 
+well as execute arbitrary JavaScript code, with&lt;% … %&gt;. If 
+you wish to interpolate a value, and haveit be HTML-escaped, 
+use &lt;%- … %&gt; When you evaluate atemplate function, pass 
+in a data object that has propertiescorresponding to the template's 
+free variables. The settings argumentshould be a hash containing any 
+_.templateSettings that should be overridden. */
+_.template(${1:templateString},${2:[settings]})]]></content><tabTrigger>_.template</tabTrigger><description>template</description><scope>source.js</scope></snippet>

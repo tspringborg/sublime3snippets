@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Splits a collection into sets, grouped by the result of 
+running eachvalue through iteratee. If iteratee is a string instead 
+ofa function, groups by the property named by iteratee on 
+each ofthe values. */
+_.groupBy(${1:list},${2:iteratee},${3: [context]})]]></content><tabTrigger>_.groupBy</tabTrigger><description>groupBy</description><scope>source.js</scope></snippet>

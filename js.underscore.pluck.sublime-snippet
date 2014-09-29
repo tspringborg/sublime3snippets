@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+A convenient version of what is perhaps the most common 
+use-case formap: extracting a list of property values. */
+_.pluck(${1:list},${2:propertyName})]]></content><tabTrigger>_.pluck</tabTrigger><description>pluck</description><scope>source.js</scope></snippet>

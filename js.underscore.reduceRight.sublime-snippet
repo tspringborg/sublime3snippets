@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Alias: foldrThe right-associative version of reduce. Delegates to theJavaScript 1.8 
+version of reduceRight, if it exists. Foldris not as useful 
+in JavaScript as it would be in a language with 
+lazyevaluation. */
+_.reduceRight(${1:list},${2:iteratee},${3: memo},${4: [context]})]]></content><tabTrigger>_.reduceRight</tabTrigger><description>reduceRight</description><scope>source.js</scope></snippet>

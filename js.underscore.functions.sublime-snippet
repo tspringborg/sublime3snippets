@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Alias: methodsReturns a sorted list of the names of every 
+method in an object —that is to say, the name 
+of every function property of the object. */
+_.functions(${1:object})]]></content><tabTrigger>_.functions</tabTrigger><description>functions</description><scope>source.js</scope></snippet>

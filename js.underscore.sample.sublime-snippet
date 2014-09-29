@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Produce a random sample from the list. Pass a number 
+toreturn n random elements from the list. Otherwise a single 
+randomitem will be returned. */
+_.sample(${1:list},${2:[n]})]]></content><tabTrigger>_.sample</tabTrigger><description>sample</description><scope>source.js</scope></snippet>

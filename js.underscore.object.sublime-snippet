@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Converts arrays into objects. Pass either a single list of[key, 
+value] pairs, or a list of keys, and a list 
+of values.If duplicate keys exist, the last value wins. */
+_.object(${1:list},${2:[values]})]]></content><tabTrigger>_.object</tabTrigger><description>object</description><scope>source.js</scope></snippet>

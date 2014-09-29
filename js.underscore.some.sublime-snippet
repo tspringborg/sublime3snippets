@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Alias: anyReturns true if any of the values in the 
+list pass thepredicate truth test. Short-circuits and stops traversing the 
+listif a true element is found. */
+_.some(${1:list},${2:[predicate]},${3: [context]})]]></content><tabTrigger>_.some</tabTrigger><description>some</description><scope>source.js</scope></snippet>

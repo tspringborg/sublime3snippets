@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[/*
+Returns true if object is a finite Number. */
+_.isFinite(${1:object})]]></content><tabTrigger>_.isFinite</tabTrigger><description>isFinite</description><scope>source.js</scope></snippet>

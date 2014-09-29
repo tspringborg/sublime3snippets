@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Returns a function that will itself return the keyproperty of 
+any passed-in object. */
+_.property(${1:key})]]></content><tabTrigger>_.property</tabTrigger><description>property</description><scope>source.js</scope></snippet>

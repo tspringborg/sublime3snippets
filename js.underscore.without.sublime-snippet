@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Returns a copy of the array with all instances of 
+the valuesremoved. */
+_.without(${1:array},${2:*values})]]></content><tabTrigger>_.without</tabTrigger><description>without</description><scope>source.js</scope></snippet>

@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Alias: includeReturns true if the value is present in the 
+list.Uses indexOf internally, if list is an Array. */
+_.contains(${1:list},${2:value})]]></content><tabTrigger>_.contains</tabTrigger><description>contains</description><scope>source.js</scope></snippet>

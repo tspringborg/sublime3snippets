@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Creates a version of the function that can be called 
+no more thancount times. The result of the last function 
+call is memoized andreturned when count has been reached. */
+_.before(${1:count},${2:function})]]></content><tabTrigger>_.before</tabTrigger><description>before</description><scope>source.js</scope></snippet>

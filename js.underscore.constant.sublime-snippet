@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Creates a function that returns the same value that is 
+used as theargument of _.constant. */
+_.constant(${1:value})]]></content><tabTrigger>_.constant</tabTrigger><description>constant</description><scope>source.js</scope></snippet>

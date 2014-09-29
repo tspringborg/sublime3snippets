@@ -1,0 +1,9 @@
+<snippet><content><![CDATA[/*
+Uses a binary search to determine the index at which 
+the valueshould be inserted into the list in order to 
+maintain the list'ssorted order. If an iteratee function is provided, 
+it will be used to computethe sort ranking of each 
+value, including the value you pass.The iteratee may also be 
+the string name of the property to sort by (eg. 
+length). */
+_.sortedIndex(${1:list},${2:value},${3: [iteratee]},${4: [context]})]]></content><tabTrigger>_.sortedIndex</tabTrigger><description>sortedIndex</description><scope>source.js</scope></snippet>

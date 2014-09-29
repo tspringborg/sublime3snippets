@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Returns a (stably) sorted copy of list, ranked in ascendingorder 
+by the results of running each value through iteratee.iteratee may 
+also be the string name of the property to sort 
+by (eg.length). */
+_.sortBy(${1:list},${2:iteratee},${3: [context]})]]></content><tabTrigger>_.sortBy</tabTrigger><description>sortBy</description><scope>source.js</scope></snippet>

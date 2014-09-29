@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[/*
+Returns true if object is a Date. */
+_.isDate(${1:object})]]></content><tabTrigger>_.isDate</tabTrigger><description>isDate</description><scope>source.js</scope></snippet>

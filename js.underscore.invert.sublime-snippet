@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Returns a copy of the object where the keys have 
+become the valuesand the values the keys. For this to 
+work, all of your object's valuesshould be unique and string 
+serializable. */
+_.invert(${1:object})]]></content><tabTrigger>_.invert</tabTrigger><description>invert</description><scope>source.js</scope></snippet>

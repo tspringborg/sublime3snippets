@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Split array into two arrays: one whose elements all satisfypredicate 
+and one whose elements all do not satisfy predicate. */
+_.partition(${1:array},${2:predicate})]]></content><tabTrigger>_.partition</tabTrigger><description>partition</description><scope>source.js</scope></snippet>

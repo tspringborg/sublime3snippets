@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Returns a shuffled copy of the list, using a version 
+of theFisher-Yates shuffle. */
+_.shuffle(${1:list})]]></content><tabTrigger>_.shuffle</tabTrigger><description>shuffle</description><scope>source.js</scope></snippet>

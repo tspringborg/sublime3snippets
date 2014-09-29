@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Generate a globally-unique id for client-side models or DOM elementsthat 
+need one. If prefix is passed, the id will be 
+appended to it. */
+_.uniqueId(${1:[prefix]})]]></content><tabTrigger>_.uniqueId</tabTrigger><description>uniqueId</description><scope>source.js</scope></snippet>

@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Invokes interceptor with the object, and then returns object.The primary 
+purpose of this method is to "tap into" a method 
+chain, in order to perform operations on intermediate results within 
+the chain. */
+_.tap(${1:object},${2:interceptor})]]></content><tabTrigger>_.tap</tabTrigger><description>tap</description><scope>source.js</scope></snippet>

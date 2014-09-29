@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Returns true if an enumerable object contains novalues (no enumerable 
+own-properties). For strings and array-likeobjects _.isEmpty checks if the length 
+property is 0. */
+_.isEmpty(${1:object})]]></content><tabTrigger>_.isEmpty</tabTrigger><description>isEmpty</description><scope>source.js</scope></snippet>

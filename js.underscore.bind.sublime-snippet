@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Bind a function to an object, meaning that wheneverthe function 
+is called, the value of this will be the object.Optionally, 
+pass arguments to the function to pre-fill them,also known as 
+partial application. For partial application withoutcontext binding, use partial. */
+_.bind(${1:function},${2:object},${3: *arguments})]]></content><tabTrigger>_.bind</tabTrigger><description>bind</description><scope>source.js</scope></snippet>

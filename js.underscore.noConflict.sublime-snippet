@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Give control of the "_" variable back to its previous 
+owner. Returnsa reference to the Underscore object. */
+_.noConflict(${1:})]]></content><tabTrigger>_.noConflict</tabTrigger><description>noConflict</description><scope>source.js</scope></snippet>

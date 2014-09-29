@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[/*
+Creates and returns a new, throttled version of the passed 
+function,that, when invoked repeatedly, will only actually call the original 
+functionat most once per every waitmilliseconds. Useful for rate-limiting events 
+that occur faster than youcan keep up with. */
+_.throttle(${1:function},${2:wait},${3: [options]})]]></content><tabTrigger>_.throttle</tabTrigger><description>throttle</description><scope>source.js</scope></snippet>

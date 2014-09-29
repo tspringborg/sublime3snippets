@@ -1,0 +1,8 @@
+<snippet><content><![CDATA[/*
+Defers invoking the function until the current call stack has 
+cleared,similar to using setTimeout with a delay of 0. Useful 
+for performingexpensive computations or HTML rendering in chunks without blocking 
+the UI threadfrom updating. If you pass the optional arguments, 
+they will beforwarded on to the function when it is 
+invoked. */
+_.defer(${1:function},${2:*arguments})]]></content><tabTrigger>_.defer</tabTrigger><description>defer</description><scope>source.js</scope></snippet>

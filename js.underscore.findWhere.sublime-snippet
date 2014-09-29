@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[/*
+Looks through the list and returns the first value that 
+matchesall of the key-value pairs listed in properties. */
+_.findWhere(${1:list},${2:properties})]]></content><tabTrigger>_.findWhere</tabTrigger><description>findWhere</description><scope>source.js</scope></snippet>

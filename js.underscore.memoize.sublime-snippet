@@ -1,0 +1,9 @@
+<snippet><content><![CDATA[/*
+Memoizes a given function by caching the computed result. Usefulfor 
+speeding up slow-running computations. If passed an optionalhashFunction, it will 
+be used to compute the hash key for storingthe result, 
+based on the arguments to the original function. The defaulthashFunction 
+just uses the first argument to the memoized functionas the 
+key. The cache of memoized values is available as the 
+cacheproperty on the returned function. */
+_.memoize(${1:function},${2:[hashFunction]})]]></content><tabTrigger>_.memoize</tabTrigger><description>memoize</description><scope>source.js</scope></snippet>

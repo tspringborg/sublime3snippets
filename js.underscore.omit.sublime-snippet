@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[/*
+Return a copy of the object, filtered to omit the 
+blacklistedkeys (or array of keys).Alternatively accepts a predicateindicating which keys 
+to omit. */
+_.omit(${1:object},${2:*keys})]]></content><tabTrigger>_.omit</tabTrigger><description>omit</description><scope>source.js</scope></snippet>
