@@ -1,8 +1,8 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Alias: forEachIterates over a list of elements, yielding each in 
 turn to an iterateefunction. The iteratee is bound to the 
 context object, if one ispassed. Each invocation of iteratee is 
 called with three arguments:(element, index, list). If list is a 
 JavaScript object, iteratee'sarguments will be (value, key, list). Returns the 
 list for chaining. */
-_.each(${1:list},${2:iteratee},${3: [context]})]]></content><tabTrigger>_.each</tabTrigger><description>each</description><scope>source.js</scope></snippet>
+}_.each(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.each</tabTrigger><description>each</description><scope>source.js</scope></snippet>

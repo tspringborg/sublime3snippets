@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns undefined irrespective of the arguments passed to it.Useful as 
 the default for optional callback arguments. */
-_.noop(${1:})]]></content><tabTrigger>_.noop</tabTrigger><description>noop</description><scope>source.js</scope></snippet>
+}_.noop(${2:})]]></content><tabTrigger>_.noop</tabTrigger><description>noop</description><scope>source.js</scope></snippet>

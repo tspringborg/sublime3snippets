@@ -1,7 +1,7 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Binds a number of methods on the object, specified bymethodNames, 
 to be run in the context of that object whenever 
 theyare invoked. Very handy for binding functions that are going 
 to be usedas event handlers, which would otherwise be invoked 
 with a fairly uselessthis. methodNames are required. */
-_.bindAll(${1:object},${2:*methodNames})]]></content><tabTrigger>_.bindAll</tabTrigger><description>bindAll</description><scope>source.js</scope></snippet>
+}_.bindAll(${2:object},${3:*methodNames})]]></content><tabTrigger>_.bindAll</tabTrigger><description>bindAll</description><scope>source.js</scope></snippet>

@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 If the value of the named property is a function 
 then invoke itwith the object as context; otherwise, return it. */
-_.result(${1:object},${2:property})]]></content><tabTrigger>_.result</tabTrigger><description>result</description><scope>source.js</scope></snippet>
+}_.result(${2:object},${3:property})]]></content><tabTrigger>_.result</tabTrigger><description>result</description><scope>source.js</scope></snippet>

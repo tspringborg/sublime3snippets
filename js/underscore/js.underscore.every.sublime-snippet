@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Alias: allReturns true if all of the values in the 
 list pass thepredicate truth test. */
-_.every(${1:list},${2:[predicate]},${3: [context]})]]></content><tabTrigger>_.every</tabTrigger><description>every</description><scope>source.js</scope></snippet>
+}_.every(${2:list},${3:[predicate]},${4: [context]})]]></content><tabTrigger>_.every</tabTrigger><description>every</description><scope>source.js</scope></snippet>

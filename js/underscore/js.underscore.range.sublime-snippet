@@ -1,8 +1,8 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 A function to create flexibly-numbered lists of integers, handy foreach 
 and map loops. start, if omitted, defaultsto 0; step defaults 
 to 1. Returns a list of integersfrom start to stop, 
 incremented (or decremented) by step,exclusive. Note that ranges that stop 
 before they startare considered to be zero-length instead of negative 
 — if you'd like anegative range, use a negative step. */
-_.range(${1:[start]},${2:stop},${3: [step]})]]></content><tabTrigger>_.range</tabTrigger><description>range</description><scope>source.js</scope></snippet>
+}_.range(${2:[start]},${3:stop},${4: [step]})]]></content><tabTrigger>_.range</tabTrigger><description>range</description><scope>source.js</scope></snippet>

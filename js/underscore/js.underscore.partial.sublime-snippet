@@ -1,7 +1,7 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Partially apply a function by filling in any number of 
 its arguments,without changing its dynamic this value. A close cousinof 
 bind. You may pass _ in your list ofarguments to 
 specify an argument that should not be pre-filled, butleft open 
 to supply at call-time. */
-_.partial(${1:function},${2:*arguments})]]></content><tabTrigger>_.partial</tabTrigger><description>partial</description><scope>source.js</scope></snippet>
+}_.partial(${2:function},${3:*arguments})]]></content><tabTrigger>_.partial</tabTrigger><description>partial</description><scope>source.js</scope></snippet>

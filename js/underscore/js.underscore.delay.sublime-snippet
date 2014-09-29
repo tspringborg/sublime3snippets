@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Much like setTimeout, invokes function after waitmilliseconds. If you pass 
 the optional arguments, they will beforwarded on to the function 
 when it is invoked. */
-_.delay(${1:function},${2:wait},${3: *arguments})]]></content><tabTrigger>_.delay</tabTrigger><description>delay</description><scope>source.js</scope></snippet>
+}_.delay(${2:function},${3:wait},${4: *arguments})]]></content><tabTrigger>_.delay</tabTrigger><description>delay</description><scope>source.js</scope></snippet>

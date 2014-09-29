@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 The opposite of escape, replaces&amp;amp;, &amp;lt;, &amp;gt;,&amp;quot;, &amp;#96; and &amp;#x27;with 
 their unescaped counterparts. */
-_.unescape(${1:string})]]></content><tabTrigger>_.unescape</tabTrigger><description>unescape</description><scope>source.js</scope></snippet>
+}_.unescape(${2:string})]]></content><tabTrigger>_.unescape</tabTrigger><description>unescape</description><scope>source.js</scope></snippet>

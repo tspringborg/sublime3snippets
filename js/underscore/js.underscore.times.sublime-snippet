@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Invokes the given iteratee function n times. Each invocation ofiteratee 
 is called with an index argument. Produces anarray of the 
 returned values.Note: this example uses the chaining syntax. */
-_.times(${1:n},${2:iteratee},${3: [context]})]]></content><tabTrigger>_.times</tabTrigger><description>times</description><scope>source.js</scope></snippet>
+}_.times(${2:n},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.times</tabTrigger><description>times</description><scope>source.js</scope></snippet>

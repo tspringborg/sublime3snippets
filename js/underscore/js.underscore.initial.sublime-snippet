@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns everything but the last entry of the array. Especially 
 useful onthe arguments object. Pass n to exclude the last 
 n elementsfrom the result. */
-_.initial(${1:array},${2:[n]})]]></content><tabTrigger>_.initial</tabTrigger><description>initial</description><scope>source.js</scope></snippet>
+}_.initial(${2:array},${3:[n]})]]></content><tabTrigger>_.initial</tabTrigger><description>initial</description><scope>source.js</scope></snippet>

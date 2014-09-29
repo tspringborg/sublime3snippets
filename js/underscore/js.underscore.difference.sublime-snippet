@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Similar to without, but returns the values from array thatare 
 not present in the other arrays. */
-_.difference(${1:array},${2:*others})]]></content><tabTrigger>_.difference</tabTrigger><description>difference</description><scope>source.js</scope></snippet>
+}_.difference(${2:array},${3:*others})]]></content><tabTrigger>_.difference</tabTrigger><description>difference</description><scope>source.js</scope></snippet>

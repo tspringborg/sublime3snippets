@@ -1,6 +1,6 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Given a list, and an iteratee function that returns akey 
 for each element in the list (or a property name),returns 
 an object with an index of each item.Just like groupBy, 
 but for when you know yourkeys are unique. */
-_.indexBy(${1:list},${2:iteratee},${3: [context]})]]></content><tabTrigger>_.indexBy</tabTrigger><description>indexBy</description><scope>source.js</scope></snippet>
+}_.indexBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.indexBy</tabTrigger><description>indexBy</description><scope>source.js</scope></snippet>

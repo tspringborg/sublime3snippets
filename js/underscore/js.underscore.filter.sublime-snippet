@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Alias: selectLooks through each value in the list, returning an 
 array of allthe values that pass a truth test (predicate). */
-_.filter(${1:list},${2:predicate},${3: [context]})]]></content><tabTrigger>_.filter</tabTrigger><description>filter</description><scope>source.js</scope></snippet>
+}_.filter(${2:list},${3:predicate},${4: [context]})]]></content><tabTrigger>_.filter</tabTrigger><description>filter</description><scope>source.js</scope></snippet>

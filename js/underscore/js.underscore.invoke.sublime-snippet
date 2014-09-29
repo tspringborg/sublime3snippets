@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Calls the method named by methodName on each value in 
 the list.Any extra arguments passed to invoke will be forwarded 
 on to themethod invocation. */
-_.invoke(${1:list},${2:methodName},${3: *arguments})]]></content><tabTrigger>_.invoke</tabTrigger><description>invoke</description><scope>source.js</scope></snippet>
+}_.invoke(${2:list},${3:methodName},${4: *arguments})]]></content><tabTrigger>_.invoke</tabTrigger><description>invoke</description><scope>source.js</scope></snippet>

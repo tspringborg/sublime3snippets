@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Return a copy of the object, filtered to only have 
 values forthe whitelisted keys (or array of valid keys).Alternativelyaccepts a 
 predicate indicating which keys to pick. */
-_.pick(${1:object},${2:*keys})]]></content><tabTrigger>_.pick</tabTrigger><description>pick</description><scope>source.js</scope></snippet>
+}_.pick(${2:object},${3:*keys})]]></content><tabTrigger>_.pick</tabTrigger><description>pick</description><scope>source.js</scope></snippet>

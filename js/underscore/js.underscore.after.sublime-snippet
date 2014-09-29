@@ -1,6 +1,6 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Creates a version of the function that will only be 
 run after firstbeing called count times. Useful for grouping asynchronous 
 responses,where you want to be sure that all the async 
 calls have finished, beforeproceeding. */
-_.after(${1:count},${2:function})]]></content><tabTrigger>_.after</tabTrigger><description>after</description><scope>source.js</scope></snippet>
+}_.after(${2:count},${3:function})]]></content><tabTrigger>_.after</tabTrigger><description>after</description><scope>source.js</scope></snippet>

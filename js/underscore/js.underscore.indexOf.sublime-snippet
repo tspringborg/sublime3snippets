@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns the index at which value can be found in 
 the array,or -1 if value is not present in the 
 array. If you're working with alarge array, and you know 
@@ -6,4 +6,4 @@ that the array is already sorted, pass truefor isSorted to
 use a faster binary search ... or, pass a number 
 asthe third argument in order to look for the first 
 matching value in thearray after the given index. */
-_.indexOf(${1:array},${2:value},${3: [isSorted]})]]></content><tabTrigger>_.indexOf</tabTrigger><description>indexOf</description><scope>source.js</scope></snippet>
+}_.indexOf(${2:array},${3:value},${4: [isSorted]})]]></content><tabTrigger>_.indexOf</tabTrigger><description>indexOf</description><scope>source.js</scope></snippet>

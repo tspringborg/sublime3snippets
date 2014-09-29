@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Creates a real Array from the list (anything that can 
 beiterated over).Useful for transmuting the arguments object. */
-_.toArray(${1:list})]]></content><tabTrigger>_.toArray</tabTrigger><description>toArray</description><scope>source.js</scope></snippet>
+}_.toArray(${2:list})]]></content><tabTrigger>_.toArray</tabTrigger><description>toArray</description><scope>source.js</scope></snippet>

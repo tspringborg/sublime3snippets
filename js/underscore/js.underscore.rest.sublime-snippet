@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Alias: tail, dropReturns the rest of the elements in an 
 array. Pass an indexto return the values of the array 
 from that index onward. */
-_.rest(${1:array},${2:[index]})]]></content><tabTrigger>_.rest</tabTrigger><description>rest</description><scope>source.js</scope></snippet>
+}_.rest(${2:array},${3:[index]})]]></content><tabTrigger>_.rest</tabTrigger><description>rest</description><scope>source.js</scope></snippet>

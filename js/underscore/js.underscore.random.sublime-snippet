@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns a random integer between min and max, inclusive.If you 
 only pass one argument, it will return a number between 
 0and that number. */
-_.random(${1:min},${2:max})]]></content><tabTrigger>_.random</tabTrigger><description>random</description><scope>source.js</scope></snippet>
+}_.random(${2:min},${3:max})]]></content><tabTrigger>_.random</tabTrigger><description>random</description><scope>source.js</scope></snippet>

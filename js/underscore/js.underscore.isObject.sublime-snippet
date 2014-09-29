@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns true if value is an Object. Note that JavaScriptarrays 
 and functions are objects, while (normal) strings and numbers are 
 not. */
-_.isObject(${1:value})]]></content><tabTrigger>_.isObject</tabTrigger><description>isObject</description><scope>source.js</scope></snippet>
+}_.isObject(${2:value})]]></content><tabTrigger>_.isObject</tabTrigger><description>isObject</description><scope>source.js</scope></snippet>

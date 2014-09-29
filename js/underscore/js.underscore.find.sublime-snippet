@@ -1,6 +1,6 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Alias: detectLooks through each value in the list, returning the 
 first one thatpasses a truth test (predicate), or undefined if 
 no valuepasses the test. The function returns assoon as it 
 finds an acceptable element, and doesn't traverse theentire list. */
-_.find(${1:list},${2:predicate},${3: [context]})]]></content><tabTrigger>_.find</tabTrigger><description>find</description><scope>source.js</scope></snippet>
+}_.find(${2:list},${3:predicate},${4: [context]})]]></content><tabTrigger>_.find</tabTrigger><description>find</description><scope>source.js</scope></snippet>

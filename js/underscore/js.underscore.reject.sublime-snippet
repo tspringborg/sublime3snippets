@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns the values in list without the elements that the 
 truthtest (predicate) passes. The opposite of filter. */
-_.reject(${1:list},${2:predicate},${3: [context]})]]></content><tabTrigger>_.reject</tabTrigger><description>reject</description><scope>source.js</scope></snippet>
+}_.reject(${2:list},${3:predicate},${4: [context]})]]></content><tabTrigger>_.reject</tabTrigger><description>reject</description><scope>source.js</scope></snippet>

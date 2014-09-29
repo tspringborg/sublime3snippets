@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Flattens a nested array (the nesting can be to any 
 depth). If youpass shallow, the array will only be flattened 
 a single level. */
-_.flatten(${1:array},${2:[shallow]})]]></content><tabTrigger>_.flatten</tabTrigger><description>flatten</description><scope>source.js</scope></snippet>
+}_.flatten(${2:array},${3:[shallow]})]]></content><tabTrigger>_.flatten</tabTrigger><description>flatten</description><scope>source.js</scope></snippet>

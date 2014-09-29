@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns a wrapped object. Calling methods on this object will 
 continueto return wrapped objects until value is called. */
-_.chain(${1:obj})]]></content><tabTrigger>_.chain</tabTrigger><description>chain</description><scope>source.js</scope></snippet>
+}_.chain(${2:obj})]]></content><tabTrigger>_.chain</tabTrigger><description>chain</description><scope>source.js</scope></snippet>

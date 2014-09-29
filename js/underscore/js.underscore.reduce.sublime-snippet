@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Aliases: inject, foldlAlso known as inject and foldl, reduce boils 
 down a list of values into a single value.Memo is 
 the initial state of the reduction, and each successive step 
@@ -6,4 +6,4 @@ of it should be returned byiteratee. The iteratee is passed
 four arguments: the memo, then the value andindex (or key) 
 of the iteration, and finally a reference to the entire 
 list. */
-_.reduce(${1:list},${2:iteratee},${3: [memo]},${4: [context]})]]></content><tabTrigger>_.reduce</tabTrigger><description>reduce</description><scope>source.js</scope></snippet>
+}_.reduce(${2:list},${3:iteratee},${4: [memo]},${5: [context]})]]></content><tabTrigger>_.reduce</tabTrigger><description>reduce</description><scope>source.js</scope></snippet>

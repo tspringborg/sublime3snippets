@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Alias: head, takeReturns the first element of an array. Passing 
 n willreturn the first n elements of the array. */
-_.first(${1:array},${2:[n]})]]></content><tabTrigger>_.first</tabTrigger><description>first</description><scope>source.js</scope></snippet>
+}_.first(${2:array},${3:[n]})]]></content><tabTrigger>_.first</tabTrigger><description>first</description><scope>source.js</scope></snippet>

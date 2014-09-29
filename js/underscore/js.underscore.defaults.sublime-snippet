@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Fill in undefined properties in object with the firstvalue present 
 in the following list of defaults objects. */
-_.defaults(${1:object},${2:*defaults})]]></content><tabTrigger>_.defaults</tabTrigger><description>defaults</description><scope>source.js</scope></snippet>
+}_.defaults(${2:object},${3:*defaults})]]></content><tabTrigger>_.defaults</tabTrigger><description>defaults</description><scope>source.js</scope></snippet>

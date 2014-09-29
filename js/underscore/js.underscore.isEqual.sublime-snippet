@@ -1,4 +1,4 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Performs an optimized deep comparison between the two objects, to 
 determineif they should be considered equal. */
-_.isEqual(${1:object},${2:other})]]></content><tabTrigger>_.isEqual</tabTrigger><description>isEqual</description><scope>source.js</scope></snippet>
+}_.isEqual(${2:object},${3:other})]]></content><tabTrigger>_.isEqual</tabTrigger><description>isEqual</description><scope>source.js</scope></snippet>

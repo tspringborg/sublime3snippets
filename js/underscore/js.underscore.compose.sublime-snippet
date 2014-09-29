@@ -1,5 +1,5 @@
-<snippet><content><![CDATA[/*
+<snippet><content><![CDATA[${1:/*
 Returns the composition of a list of functions, where each 
 functionconsumes the return value of the function that follows. In 
 math terms,composing the functions f(), g(), and h() producesf(g(h())). */
-_.compose(${1:*functions})]]></content><tabTrigger>_.compose</tabTrigger><description>compose</description><scope>source.js</scope></snippet>
+}_.compose(${2:*functions})]]></content><tabTrigger>_.compose</tabTrigger><description>compose</description><scope>source.js</scope></snippet>
