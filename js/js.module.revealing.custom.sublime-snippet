@@ -1,15 +1,11 @@
 <snippet>
 	<content><![CDATA[
-/*
-# Tab through stuff to rename it. #
-*/
 
 var ${1:ClassName} = (function(\$ , _) {
 
 	var options = {
 		//default private options
-		}
-	};
+	}
 
 	var ${1:ClassName} = function(customOptions){
 		if(!customOptions) customOptions = {};
