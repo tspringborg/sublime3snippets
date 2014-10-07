@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+//wait for condition
+var condition = function(){
+	return ${1:allIsGood}
+}
+if(condition()){
+	${2:doStuff()}
+}else{
+	var interval = setInterval(function(){
+		if(condition()){
+			clearInterval(interval);
+			${2:doStuff()}
+		}
+	},${3:200})
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wait</tabTrigger>
+	<description>wait for condition with setInterval</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
