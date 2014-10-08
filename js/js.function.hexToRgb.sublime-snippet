@@ -17,8 +17,8 @@ function hexToRgb(hex) {
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>randRange</tabTrigger>
-	<description>function to return random number</description>
+	<tabTrigger>hexToRgb</tabTrigger>
+	<description>hex to rgb</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
