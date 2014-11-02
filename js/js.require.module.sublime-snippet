@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+/**
+*	@author ${2:Thomas Springborg}
+**/
+'use strict';
+
+define([
+	'jquery',
+	'underscore'
+], function(
+	\$,
+	_
+) {
+
+	function ${1:Module}() {
+
+		var api = {
+		};
+
+		return api;
+	}
+
+	return new ${1:Module}();
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger><![CDATA[jsRequireModule]]></tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>
+		JS revealing require module class with jquery and underscore.
+	</description>
+</snippet>
