@@ -1,4 +1,4 @@
 <snippet><content><![CDATA[${1:/*
 Returns an integer timestamp for the current time, using the 
 fastestmethod available in the runtime. Useful for implementing timing/animationfunctions. */
-}_.now(${2:})]]></content><tabTrigger>_.now</tabTrigger><description>now</description><scope>source.js</scope></snippet>
+}_.now(${2:})]]></content><tabTrigger>_.now</tabTrigger><description>underscore - now</description><scope>source.js</scope></snippet>

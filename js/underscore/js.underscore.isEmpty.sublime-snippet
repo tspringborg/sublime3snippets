@@ -2,4 +2,4 @@
 Returns true if an enumerable object contains novalues (no enumerable 
 own-properties). For strings and array-likeobjects _.isEmpty checks if the length 
 property is 0. */
-}_.isEmpty(${2:object})]]></content><tabTrigger>_.isEmpty</tabTrigger><description>isEmpty</description><scope>source.js</scope></snippet>
+}_.isEmpty(${2:object})]]></content><tabTrigger>_.isEmpty</tabTrigger><description>underscore - isEmpty</description><scope>source.js</scope></snippet>

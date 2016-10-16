@@ -2,4 +2,4 @@
 Looks through each value in the list, returning an array 
 of allthe values that contain all of the key-value pairs 
 listed in properties. */
-}_.where(${2:list},${3:properties})]]></content><tabTrigger>_.where</tabTrigger><description>where</description><scope>source.js</scope></snippet>
+}_.where(${2:list},${3:properties})]]></content><tabTrigger>_.where</tabTrigger><description>underscore - where</description><scope>source.js</scope></snippet>

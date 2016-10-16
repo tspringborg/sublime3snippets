@@ -3,4 +3,4 @@ Copy all of the properties in the source objects over
 to thedestination object, and return the destination object.It's in-order, so 
 the last source will override properties of the samename in 
 previous arguments. */
-}_.extend(${2:destination},${3:*sources})]]></content><tabTrigger>_.extend</tabTrigger><description>extend</description><scope>source.js</scope></snippet>
+}_.extend(${2:destination},${3:*sources})]]></content><tabTrigger>_.extend</tabTrigger><description>underscore - extend</description><scope>source.js</scope></snippet>

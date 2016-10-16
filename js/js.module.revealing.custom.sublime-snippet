@@ -3,16 +3,20 @@
 
 var ${1:ClassName} = (function(\$ , _) {
 
-	var options = {
-		//default private options
+	var defaultOptions = {
+		//default private static options
 	}
 
 	var ${1:ClassName} = function(customOptions){
 		if(!customOptions) customOptions = {};
-		options = _.extend({}, options,customOptions);
+		this.options = _.extend({}, defaultOptions,customOptions);
+
+		this.privatefunction = function(){
+		
+		}
 	}
 
-	var ${2:privateFunction} = function(){
+	var ${2:privateStaticFunction} = function(){
 		alert('this function is private');
 	}
 

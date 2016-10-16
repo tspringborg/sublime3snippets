@@ -1,3 +1,3 @@
 <snippet><content><![CDATA[${1:/*
 Returns true if object is either true or false. */
-}_.isBoolean(${2:object})]]></content><tabTrigger>_.isBoolean</tabTrigger><description>isBoolean</description><scope>source.js</scope></snippet>
+}_.isBoolean(${2:object})]]></content><tabTrigger>_.isBoolean</tabTrigger><description>underscore - isBoolean</description><scope>source.js</scope></snippet>

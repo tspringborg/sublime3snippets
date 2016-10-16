@@ -8,38 +8,41 @@ var casper = require('casper').create({
   pageSettings: {
     loadImages: false,
     loadPlugins: false,
-    userAgent: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36'
+    // userAgent: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36'
+    userAgent: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
   },
   clientScripts: ['lib/jquery.min.js'] // Inject jquery library, allows use of $ variables
 });
 
 var baseUrl = 'https://lodash.com/docs';
+// var baseUrl = 'http://google.com';
 
 casper.start(baseUrl, function(){
 	this.echo('loaded '+baseUrl);
   this.echo('reading snippets from the page')
+  
   var snippets = this.evaluate(function(){
-        var returnArray = ['hello there'];
-        // $('code').each(function(){
-        //   returnArray.push($(this).html())
-        //   // var snippet = $(this).html();
-        //   // var explanation = $(this).parent();
-        //   // var header = explanation.find('.header');
-        //   // var snippetName = header.html();
-        //   // header.remove();
-        //   // explanation.find('code').remove();
-        //   // explanation = explanation.html();
-        //   // var regex = /(<([^>]+)>)/ig;
-        //   // explanation = explanation.replace(regex, "");
-        //   // explanation = explanation.replace(/\n/ig, "");
-        //   // explanation = explanation.replace(/  /ig, "");
-        //   // returnArray.push({name:snippetName, snippet:snippet, explanation:explanation});
+        var returnArray = [jQuery('body').html()];
+        // returnArray.push($(this).html());
+        // $('h3').each(function(){
+          // returnArray.push($(this).html());
+          // var snippet = $(this).html();
+          // var explanation = $(this).parent();
+          // var header = explanation.find('.header');
+          // var snippetName = header.html();
+          // header.remove();
+          // explanation.find('code').remove();
+          // explanation = explanation.html();
+          // var regex = /(<([^>]+)>)/ig;
+          // explanation = explanation.replace(regex, "");
+          // explanation = explanation.replace(/\n/ig, "");
+          // explanation = explanation.replace(/  /ig, "");
+          // returnArray.push({name:snippetName, snippet:snippet, explanation:explanation});
         // })
         return returnArray;
       })
-  console.log('hello there')
-  utils.dump(JSON.stringify(snippets));
-  // writeSnippets(snippets, '../js/lodash/js.lodash.{name}.sublime-snippet');
+  utils.dump(snippets);
+  // writeSnippets(snippets, '../js/underscore/js.underscore.{name}.sublime-snippet');
 });
 //then.end.
 

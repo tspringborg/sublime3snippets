@@ -6,4 +6,4 @@ that the array is already sorted, pass truefor isSorted to
 use a faster binary search ... or, pass a number 
 asthe third argument in order to look for the first 
 matching value in thearray after the given index. */
-}_.indexOf(${2:array},${3:value},${4: [isSorted]})]]></content><tabTrigger>_.indexOf</tabTrigger><description>indexOf</description><scope>source.js</scope></snippet>
+}_.indexOf(${2:array},${3:value},${4: [isSorted]})]]></content><tabTrigger>_.indexOf</tabTrigger><description>underscore - indexOf</description><scope>source.js</scope></snippet>

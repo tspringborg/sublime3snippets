@@ -1,3 +1,3 @@
 <snippet><content><![CDATA[${1:/*
 Returns true if object is a RegExp. */
-}_.isRegExp(${2:object})]]></content><tabTrigger>_.isRegExp</tabTrigger><description>isRegExp</description><scope>source.js</scope></snippet>
+}_.isRegExp(${2:object})]]></content><tabTrigger>_.isRegExp</tabTrigger><description>underscore - isRegExp</description><scope>source.js</scope></snippet>

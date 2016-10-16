@@ -3,4 +3,4 @@ Splits a collection into sets, grouped by the result of
 running eachvalue through iteratee. If iteratee is a string instead 
 ofa function, groups by the property named by iteratee on 
 each ofthe values. */
-}_.groupBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.groupBy</tabTrigger><description>groupBy</description><scope>source.js</scope></snippet>
+}_.groupBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.groupBy</tabTrigger><description>underscore - groupBy</description><scope>source.js</scope></snippet>

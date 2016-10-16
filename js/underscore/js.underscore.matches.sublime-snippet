@@ -2,4 +2,4 @@
 Returns a predicate function that will tell you if a 
 passed in objectcontains all of the key/value properties present in 
 attrs. */
-}_.matches(${2:attrs})]]></content><tabTrigger>_.matches</tabTrigger><description>matches</description><scope>source.js</scope></snippet>
+}_.matches(${2:attrs})]]></content><tabTrigger>_.matches</tabTrigger><description>underscore - matches</description><scope>source.js</scope></snippet>

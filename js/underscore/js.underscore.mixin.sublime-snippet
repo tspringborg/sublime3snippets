@@ -2,4 +2,4 @@
 Allows you to extend Underscore with your own utility functions. 
 Passa hash of {name: function} definitions to have your functionsadded 
 to the Underscore object, as well as the OOP wrapper. */
-}_.mixin(${2:object})]]></content><tabTrigger>_.mixin</tabTrigger><description>mixin</description><scope>source.js</scope></snippet>
+}_.mixin(${2:object})]]></content><tabTrigger>_.mixin</tabTrigger><description>underscore - mixin</description><scope>source.js</scope></snippet>

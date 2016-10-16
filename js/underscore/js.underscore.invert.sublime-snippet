@@ -3,4 +3,4 @@ Returns a copy of the object where the keys have
 become the valuesand the values the keys. For this to 
 work, all of your object's valuesshould be unique and string 
 serializable. */
-}_.invert(${2:object})]]></content><tabTrigger>_.invert</tabTrigger><description>invert</description><scope>source.js</scope></snippet>
+}_.invert(${2:object})]]></content><tabTrigger>_.invert</tabTrigger><description>underscore - invert</description><scope>source.js</scope></snippet>

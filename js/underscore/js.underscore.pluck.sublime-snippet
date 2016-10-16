@@ -1,4 +1,4 @@
 <snippet><content><![CDATA[${1:/*
 A convenient version of what is perhaps the most common 
 use-case formap: extracting a list of property values. */
-}_.pluck(${2:list},${3:propertyName})]]></content><tabTrigger>_.pluck</tabTrigger><description>pluck</description><scope>source.js</scope></snippet>
+}_.pluck(${2:list},${3:propertyName})]]></content><tabTrigger>_.pluck</tabTrigger><description>underscore - pluck</description><scope>source.js</scope></snippet>

@@ -1,4 +1,4 @@
 <snippet><content><![CDATA[${1:/*
 Alias: includeReturns true if the value is present in the 
 list.Uses indexOf internally, if list is an Array. */
-}_.contains(${2:list},${3:value})]]></content><tabTrigger>_.contains</tabTrigger><description>contains</description><scope>source.js</scope></snippet>
+}_.contains(${2:list},${3:value})]]></content><tabTrigger>_.contains</tabTrigger><description>underscore - contains</description><scope>source.js</scope></snippet>

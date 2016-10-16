@@ -1,4 +1,4 @@
 <snippet><content><![CDATA[${1:/*
 Returns the last element of an array. Passing n will 
 returnthe last n elements of the array. */
-}_.last(${2:array},${3:[n]})]]></content><tabTrigger>_.last</tabTrigger><description>last</description><scope>source.js</scope></snippet>
+}_.last(${2:array},${3:[n]})]]></content><tabTrigger>_.last</tabTrigger><description>underscore - last</description><scope>source.js</scope></snippet>

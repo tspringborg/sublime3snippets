@@ -5,4 +5,4 @@ since the last time itwas invoked. Useful for implementing behavior
 that should only happenafter the input has stopped arriving. For 
 example: rendering apreview of a Markdown comment, recalculating a layout 
 after the windowhas stopped being resized, and so on. */
-}_.debounce(${2:function},${3:wait},${4: [immediate]})]]></content><tabTrigger>_.debounce</tabTrigger><description>debounce</description><scope>source.js</scope></snippet>
+}_.debounce(${2:function},${3:wait},${4: [immediate]})]]></content><tabTrigger>_.debounce</tabTrigger><description>underscore - debounce</description><scope>source.js</scope></snippet>

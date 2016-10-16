@@ -1,18 +1,11 @@
 {
-  "name": "fossflakes",
+  "name": "sublime3snippet autogeneration",
   "version": "0.0.0",
   "repository": {
     "type": "svn",
-    "url": "https://molamil.slsapp.com/source/fossflakes"
+    "url": ""
   },
-  "srcDir": "src",
-  "outputDir": "www",
-  "author": "Molamil - Thomas Springborg",
+  "author": "Thomas Springborg",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-contrib-sass": "^0.7.3",
-    "grunt-contrib-uglify": "~0.4.0",
-    "grunt-contrib-concat": "~0.4.0"
   }
 }

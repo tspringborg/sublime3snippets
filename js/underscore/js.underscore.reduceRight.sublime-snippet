@@ -3,4 +3,4 @@ Alias: foldrThe right-associative version of reduce. Delegates to theJavaScript 
 version of reduceRight, if it exists. Foldris not as useful 
 in JavaScript as it would be in a language with 
 lazyevaluation. */
-}_.reduceRight(${2:list},${3:iteratee},${4: memo},${5: [context]})]]></content><tabTrigger>_.reduceRight</tabTrigger><description>reduceRight</description><scope>source.js</scope></snippet>
+}_.reduceRight(${2:list},${3:iteratee},${4: memo},${5: [context]})]]></content><tabTrigger>_.reduceRight</tabTrigger><description>underscore - reduceRight</description><scope>source.js</scope></snippet>

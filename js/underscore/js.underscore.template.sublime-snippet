@@ -8,4 +8,4 @@ use &lt;%- … %&gt; When you evaluate atemplate function, pass
 in a data object that has propertiescorresponding to the template's 
 free variables. The settings argumentshould be a hash containing any 
 _.templateSettings that should be overridden. */
-}_.template(${2:templateString},${3:[settings]})]]></content><tabTrigger>_.template</tabTrigger><description>template</description><scope>source.js</scope></snippet>
+}_.template(${2:templateString},${3:[settings]})]]></content><tabTrigger>_.template</tabTrigger><description>underscore - template</description><scope>source.js</scope></snippet>

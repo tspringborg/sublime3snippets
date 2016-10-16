@@ -2,4 +2,4 @@
 Computes the union of the passed-in arrays: the list of 
 unique items,in order, that are present in one or more 
 of the arrays. */
-}_.union(${2:*arrays})]]></content><tabTrigger>_.union</tabTrigger><description>union</description><scope>source.js</scope></snippet>
+}_.union(${2:*arrays})]]></content><tabTrigger>_.union</tabTrigger><description>underscore - union</description><scope>source.js</scope></snippet>

@@ -2,4 +2,4 @@
 Does the object contain the given key? Identical toobject.hasOwnProperty(key), but 
 uses a safe reference to thehasOwnProperty function, in case it's 
 beenoverridden accidentally. */
-}_.has(${2:object},${3:key})]]></content><tabTrigger>_.has</tabTrigger><description>has</description><scope>source.js</scope></snippet>
+}_.has(${2:object},${3:key})]]></content><tabTrigger>_.has</tabTrigger><description>underscore - has</description><scope>source.js</scope></snippet>

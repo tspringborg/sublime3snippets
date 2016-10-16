@@ -1,4 +1,4 @@
 <snippet><content><![CDATA[${1:/*
 Create a shallow-copied clone of the object. Any nested objectsor 
 arrays will be copied by reference, not duplicated. */
-}_.clone(${2:object})]]></content><tabTrigger>_.clone</tabTrigger><description>clone</description><scope>source.js</scope></snippet>
+}_.clone(${2:object})]]></content><tabTrigger>_.clone</tabTrigger><description>underscore - clone</description><scope>source.js</scope></snippet>

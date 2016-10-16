@@ -3,4 +3,4 @@ Sorts a list into groups and returns a count for
 the number of objectsin each group.Similar to groupBy, but instead 
 of returning a list of values,returns a count for the 
 number of values in that group. */
-}_.countBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.countBy</tabTrigger><description>countBy</description><scope>source.js</scope></snippet>
+}_.countBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.countBy</tabTrigger><description>underscore - countBy</description><scope>source.js</scope></snippet>

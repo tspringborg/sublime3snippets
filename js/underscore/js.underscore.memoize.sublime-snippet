@@ -6,4 +6,4 @@ based on the arguments to the original function. The defaulthashFunction
 just uses the first argument to the memoized functionas the 
 key. The cache of memoized values is available as the 
 cacheproperty on the returned function. */
-}_.memoize(${2:function},${3:[hashFunction]})]]></content><tabTrigger>_.memoize</tabTrigger><description>memoize</description><scope>source.js</scope></snippet>
+}_.memoize(${2:function},${3:[hashFunction]})]]></content><tabTrigger>_.memoize</tabTrigger><description>underscore - memoize</description><scope>source.js</scope></snippet>

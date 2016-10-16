@@ -3,4 +3,4 @@ Returns the maximum value in list. If an iterateefunction is
 provided, it will be used on each value to generate 
 thecriterion by which the value is ranked. -Infinity is returnedif 
 list is empty, so an isEmpty guardmay be required. */
-}_.max(${2:list},${3:[iteratee]},${4: [context]})]]></content><tabTrigger>_.max</tabTrigger><description>max</description><scope>source.js</scope></snippet>
+}_.max(${2:list},${3:[iteratee]},${4: [context]})]]></content><tabTrigger>_.max</tabTrigger><description>underscore - max</description><scope>source.js</scope></snippet>

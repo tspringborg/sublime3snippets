@@ -2,4 +2,4 @@
 Returns a random integer between min and max, inclusive.If you 
 only pass one argument, it will return a number between 
 0and that number. */
-}_.random(${2:min},${3:max})]]></content><tabTrigger>_.random</tabTrigger><description>random</description><scope>source.js</scope></snippet>
+}_.random(${2:min},${3:max})]]></content><tabTrigger>_.random</tabTrigger><description>underscore - random</description><scope>source.js</scope></snippet>

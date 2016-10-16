@@ -2,4 +2,4 @@
 Returns the same value that is used as the argument. 
 In math:f(x) = xThis function looks useless, but is used 
 throughout Underscore asa default iteratee. */
-}_.identity(${2:value})]]></content><tabTrigger>_.identity</tabTrigger><description>identity</description><scope>source.js</scope></snippet>
+}_.identity(${2:value})]]></content><tabTrigger>_.identity</tabTrigger><description>underscore - identity</description><scope>source.js</scope></snippet>

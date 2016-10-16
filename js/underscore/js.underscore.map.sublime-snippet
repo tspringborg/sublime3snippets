@@ -2,4 +2,4 @@
 Alias: collectProduces a new array of values by mapping each 
 value in listthrough a transformation function (iteratee). If listis a 
 JavaScript object, iteratee's arguments will be(value, key, list). */
-}_.map(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.map</tabTrigger><description>map</description><scope>source.js</scope></snippet>
+}_.map(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.map</tabTrigger><description>underscore - map</description><scope>source.js</scope></snippet>

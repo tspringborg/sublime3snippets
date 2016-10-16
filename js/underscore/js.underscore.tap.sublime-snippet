@@ -3,4 +3,4 @@ Invokes interceptor with the object, and then returns object.The primary
 purpose of this method is to "tap into" a method 
 chain, in order to perform operations on intermediate results within 
 the chain. */
-}_.tap(${2:object},${3:interceptor})]]></content><tabTrigger>_.tap</tabTrigger><description>tap</description><scope>source.js</scope></snippet>
+}_.tap(${2:object},${3:interceptor})]]></content><tabTrigger>_.tap</tabTrigger><description>underscore - tap</description><scope>source.js</scope></snippet>

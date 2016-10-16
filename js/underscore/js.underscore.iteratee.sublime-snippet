@@ -5,4 +5,4 @@ eitheridentity, an arbitrary callback, a property matcher, or a property
 accessor.The full list of Underscore methods that transform predicatesthrough _.iteratee 
 is map, find,filter, reject, every, some, max,min, sortBy, groupBy, indexBy,countBy, 
 sortedIndex, partition, and unique. */
-}_.iteratee(${2:value},${3:[context]},${4: [argCount]})]]></content><tabTrigger>_.iteratee</tabTrigger><description>iteratee</description><scope>source.js</scope></snippet>
+}_.iteratee(${2:value},${3:[context]},${4: [argCount]})]]></content><tabTrigger>_.iteratee</tabTrigger><description>underscore - iteratee</description><scope>source.js</scope></snippet>

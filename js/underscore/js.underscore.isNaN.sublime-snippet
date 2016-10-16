@@ -2,4 +2,4 @@
 Returns true if object is NaN. Note: this is notthe 
 same as the native isNaN function, which will also returntrue 
 for many other not-number values, such as undefined. */
-}_.isNaN(${2:object})]]></content><tabTrigger>_.isNaN</tabTrigger><description>isNaN</description><scope>source.js</scope></snippet>
+}_.isNaN(${2:object})]]></content><tabTrigger>_.isNaN</tabTrigger><description>underscore - isNaN</description><scope>source.js</scope></snippet>

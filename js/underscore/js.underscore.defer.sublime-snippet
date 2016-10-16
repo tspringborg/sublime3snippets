@@ -5,4 +5,4 @@ for performingexpensive computations or HTML rendering in chunks without blockin
 the UI threadfrom updating. If you pass the optional arguments, 
 they will beforwarded on to the function when it is 
 invoked. */
-}_.defer(${2:function},${3:*arguments})]]></content><tabTrigger>_.defer</tabTrigger><description>defer</description><scope>source.js</scope></snippet>
+}_.defer(${2:function},${3:*arguments})]]></content><tabTrigger>_.defer</tabTrigger><description>underscore - defer</description><scope>source.js</scope></snippet>

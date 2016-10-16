@@ -6,4 +6,4 @@ of it should be returned byiteratee. The iteratee is passed
 four arguments: the memo, then the value andindex (or key) 
 of the iteration, and finally a reference to the entire 
 list. */
-}_.reduce(${2:list},${3:iteratee},${4: [memo]},${5: [context]})]]></content><tabTrigger>_.reduce</tabTrigger><description>reduce</description><scope>source.js</scope></snippet>
+}_.reduce(${2:list},${3:iteratee},${4: [memo]},${5: [context]})]]></content><tabTrigger>_.reduce</tabTrigger><description>underscore - reduce</description><scope>source.js</scope></snippet>

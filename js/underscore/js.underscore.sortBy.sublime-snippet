@@ -3,4 +3,4 @@ Returns a (stably) sorted copy of list, ranked in ascendingorder
 by the results of running each value through iteratee.iteratee may 
 also be the string name of the property to sort 
 by (eg.length). */
-}_.sortBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.sortBy</tabTrigger><description>sortBy</description><scope>source.js</scope></snippet>
+}_.sortBy(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.sortBy</tabTrigger><description>underscore - sortBy</description><scope>source.js</scope></snippet>

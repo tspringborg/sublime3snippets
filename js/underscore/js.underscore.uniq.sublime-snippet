@@ -4,4 +4,4 @@ to testobject equality. If you know in advance that the
 array is sorted,passing true for isSorted will run a much 
 faster algorithm.If you want to compute unique items based on 
 a transformation, pass aniteratee function. */
-}_.uniq(${2:array},${3:[isSorted]},${4: [iteratee]})]]></content><tabTrigger>_.uniq</tabTrigger><description>uniq</description><scope>source.js</scope></snippet>
+}_.uniq(${2:array},${3:[isSorted]},${4: [iteratee]})]]></content><tabTrigger>_.uniq</tabTrigger><description>underscore - uniq</description><scope>source.js</scope></snippet>

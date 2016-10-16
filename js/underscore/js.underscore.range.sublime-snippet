@@ -5,4 +5,4 @@ to 1. Returns a list of integersfrom start to stop,
 incremented (or decremented) by step,exclusive. Note that ranges that stop 
 before they startare considered to be zero-length instead of negative 
 — if you'd like anegative range, use a negative step. */
-}_.range(${2:[start]},${3:stop},${4: [step]})]]></content><tabTrigger>_.range</tabTrigger><description>range</description><scope>source.js</scope></snippet>
+}_.range(${2:[start]},${3:stop},${4: [step]})]]></content><tabTrigger>_.range</tabTrigger><description>underscore - range</description><scope>source.js</scope></snippet>

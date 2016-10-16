@@ -2,4 +2,4 @@
 Alias: anyReturns true if any of the values in the 
 list pass thepredicate truth test. Short-circuits and stops traversing the 
 listif a true element is found. */
-}_.some(${2:list},${3:[predicate]},${4: [context]})]]></content><tabTrigger>_.some</tabTrigger><description>some</description><scope>source.js</scope></snippet>
+}_.some(${2:list},${3:[predicate]},${4: [context]})]]></content><tabTrigger>_.some</tabTrigger><description>underscore - some</description><scope>source.js</scope></snippet>

@@ -2,4 +2,4 @@
 Computes the list of values that are the intersection of 
 all the arrays.Each value in the result is present in 
 each of the arrays. */
-}_.intersection(${2:*arrays})]]></content><tabTrigger>_.intersection</tabTrigger><description>intersection</description><scope>source.js</scope></snippet>
+}_.intersection(${2:*arrays})]]></content><tabTrigger>_.intersection</tabTrigger><description>underscore - intersection</description><scope>source.js</scope></snippet>

@@ -5,4 +5,4 @@ context object, if one ispassed. Each invocation of iteratee is
 called with three arguments:(element, index, list). If list is a 
 JavaScript object, iteratee'sarguments will be (value, key, list). Returns the 
 list for chaining. */
-}_.each(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.each</tabTrigger><description>each</description><scope>source.js</scope></snippet>
+}_.each(${2:list},${3:iteratee},${4: [context]})]]></content><tabTrigger>_.each</tabTrigger><description>underscore - each</description><scope>source.js</scope></snippet>

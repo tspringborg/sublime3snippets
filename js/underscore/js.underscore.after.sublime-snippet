@@ -3,4 +3,4 @@ Creates a version of the function that will only be
 run after firstbeing called count times. Useful for grouping asynchronous 
 responses,where you want to be sure that all the async 
 calls have finished, beforeproceeding. */
-}_.after(${2:count},${3:function})]]></content><tabTrigger>_.after</tabTrigger><description>after</description><scope>source.js</scope></snippet>
+}_.after(${2:count},${3:function})]]></content><tabTrigger>_.after</tabTrigger><description>underscore - after</description><scope>source.js</scope></snippet>
