@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<template>
+    ${1:<div></div>}
+</template>
+
+<script>
+    export default {
+        name: '${2:ComponentName}',
+        data() {
+            return {
+            }
+        },
+        methods: {
+        },
+    }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="scss" scoped>
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vue</tabTrigger>
+	<description>Vue component base setup</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.vue</scope>
+</snippet>

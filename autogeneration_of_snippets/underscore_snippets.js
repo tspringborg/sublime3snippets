@@ -1,5 +1,4 @@
 var fs = require('fs');
-var utils = require('utils');
 var casperUtils = require('./casperUtils');
 
 var casper = require('casper').create({
@@ -37,8 +36,8 @@ casper.start(baseUrl, function(){
         // })
         return returnArray;
       })
-  console.log('hello there')
-  utils.dump(JSON.stringify(snippets));
+  
+  
   // writeSnippets(snippets, '../js/lodash/js.lodash.{name}.sublime-snippet');
 });
 //then.end.
