@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+debug('app:${1:foo}')('${2:bar}: %s', ${2:bar})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>debug</tabTrigger>
+	<description>Mola generator debug snippet</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.vue,source.js</scope>
+</snippet>
