@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: '${2:ComponentName}',
+        name: '${2:${TM_FILENAME/(\w+)\.vue/\1/g}}',
         data() {
             return {
             }
@@ -17,7 +17,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
+<style lang="sass">
 </style>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

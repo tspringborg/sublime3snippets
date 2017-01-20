@@ -1,0 +1,77 @@
+<snippet>
+	<content><![CDATA[
+<template>
+    ${1:<div></div>}
+</template>
+
+<script>
+    export default {
+        name: '${2:${TM_FILENAME/(\w+)\.vue/\1/g}}',
+        data() {
+            return {
+            }
+        },
+        components: {
+
+        },
+        props: {
+
+        },
+        directives: {
+
+        },
+        filters: {
+
+        },
+        methods: {
+
+        },
+        computed: {
+
+        },
+        watch: {
+
+        },
+        beforeCreate() {
+
+        },
+        beforeMount() {
+
+        },
+        mounted() {
+
+        },
+        created() {
+
+        },
+        beforeUpdate() {
+
+        },
+        updated() {
+
+        },
+        activated() {
+
+        },
+        beforeDestroy() {
+
+        },
+        destroyed() {
+
+        },
+        deactivated() {
+
+        },
+    }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="sass">
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vuefull</tabTrigger>
+	<description>Vue component setup with all hooks and attributes</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.vue</scope>
+</snippet>
