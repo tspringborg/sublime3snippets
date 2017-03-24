@@ -1,0 +1,87 @@
+<snippet>
+    <content><![CDATA[
+// Media loading order of events
+// loadstart > durationchange > loadedmetadata > loadeddata > progress > canplay > canplaythrough
+audio.addEventListener('loadstart', function loadstart() {
+    debug('app:html5audio')('loadstart')
+}
+audio.addEventListener('durationchange', function durationchange() {
+    debug('app:html5audio')('durationchange')
+})
+audio.addEventListener('loadedmetadata', function loadedmetadata() {
+    debug('app:html5audio')('loadedmetadata')
+})
+audio.addEventListener('loadeddata', function loadeddata() {
+    debug('app:html5audio')('loadeddata')
+})
+audio.addEventListener('progress', function progress() {
+    debug('app:html5audio')('progress')
+})
+audio.addEventListener('canplay', function canplay() {
+    debug('app:html5audio')('canplay')
+})
+audio.addEventListener('canplaythrough', function canplaythrough() {
+    debug('app:html5audio')('canplaythrough')
+})
+
+// Loading interruption events
+audio.addEventListener('suspend', function suspend() {
+    // Media data is no longer being fetched even though the file has not been entirely downloaded.
+    debug('app:html5audio')('suspend')
+})
+audio.addEventListener('abort', function abort() {
+    // Media data download has been aborted but not due to an error.
+    debug('app:html5audio')('abort')
+})
+audio.addEventListener('error', function error() {
+    // An error is encountered while media data is being download.
+    debug('app:html5audio')('error')
+})
+audio.addEventListener('emptied', function emptied() {
+    // The media buffer has been emptied, possibly due to an error or because the load() method was invoked to reload it.
+    debug('app:html5audio')('emptied')
+})
+audio.addEventListener('stalled', function stalled() {
+    // Media data is unexpectedly no longer available.
+    debug('app:html5audio')('stalled')
+})
+
+// Media Playing Events
+audio.addEventListener('timeupdate', function timeupdate() {
+    // update something related to playback progress
+    debug('app:html5audio')('timeupdate')
+})
+audio.addEventListener('playing', function playing() {
+    debug('app:html5audio')('playing')
+})
+audio.addEventListener('waiting', function waiting() {
+    debug('app:html5audio')('waiting')
+})
+audio.addEventListener('play', function play() {
+    debug('app:html5audio')('play')
+})
+audio.addEventListener('pause', function pause() {
+    debug('app:html5audio')('pause')
+})
+audio.addEventListener('ended', function ended() {
+    debug('app:html5audio')('ended')
+})
+audio.addEventListener('volumechange', function volumechange() {
+    debug('app:html5audio')('volumechange')
+})
+
+// Buffering events
+audio.addEventListener('seeking', function seeking() {
+    debug('app:html5audio')('seeking')
+})
+audio.addEventListener('seeked', function seeked() {
+    debug('app:html5audio')('seeked')
+})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>audio:events</tabTrigger>
+    <description>all Audio tag events</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
+

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+/* eslint-disable no-unused-vars, max-len, no-undef, no-mixed-operators */
+
+import _ from 'lodash'
+
+const defaultOptions = {
+	${1}
+}
+
+function init(params) {
+    const api = {}
+    // setup options
+    const options = _.merge(defaultOptions, (params || {}))
+
+    return api
+}
+
+export default init
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>module</ntabTrigger>
+	<description>JS function style module</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
