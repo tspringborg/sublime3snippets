@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-debug('app:${1:foo}')(${3:'${2:bar}: %s', ${2:bar}})
+debug('app:${1:${TM_FILENAME/(\w+)\.vue/\1/g}}')(${4:'${2:bar}: %${3:s}', ${2:bar}})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>debug</tabTrigger>
