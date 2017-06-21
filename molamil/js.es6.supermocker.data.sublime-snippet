@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+/* eslint-disable */
+// disable linter because we might just copy some output from an api in order to test different combinations
+import _ from 'lodash'
+
+export default (request) => {
+    const data = {
+        'header': 'Hello world',
+        'things': ['hello', 'world']
+    }
+    const result = {
+        id: request.params.id,
+        text: JSON.stringify(data),
+        headers: request.headers,
+    }
+    return result
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mockrequestdata</ntabTrigger>
+    <description>Data for a superagent-mocker request</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
+
+
+
+
+
