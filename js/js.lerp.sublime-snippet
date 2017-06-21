@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+// lerp between two values
+function lerp(value1, value2, amount) {
+	return (value1 + (value2 - value1)) * amount
+}]]></content>
+	<tabTrigger><![CDATA[lerp]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>lerp function</description>
+</snippet>
