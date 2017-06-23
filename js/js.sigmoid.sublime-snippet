@@ -1,0 +1,11 @@
+
+<snippet>
+	<content><![CDATA[
+${1:const sigmoid = }1 / (1 + Math.pow(Math.E, -${2:value}))
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sigmoid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Sigmoid algorithm. (A sigmoid function is a bounded differentiable real function that is defined for all real input values and has a non-negative derivative at each point)</description>
+</snippet>
