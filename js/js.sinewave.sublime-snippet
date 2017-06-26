@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+// Standard Sine Wave. Default oscilation between (-1, 1)
+function sineWave(t, frequency, amplitude, phase) {
+	const a = amplitude || 1
+	const f = frequency || 0.003
+	const p = phase || 0
+	return a * Math.sin((t * f) + p)
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sineWave</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Sine wave function</description>
+</snippet>
