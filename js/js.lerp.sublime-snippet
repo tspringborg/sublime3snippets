@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 // lerp between two values
-function lerp(value1, value2, amount) {
-	return (value1 + (value2 - value1)) * amount
+function lerp(A, B, t) {
+    return A + (t * (B - A))
 }]]></content>
 	<tabTrigger><![CDATA[lerp]]></tabTrigger>
 	<scope>source.js</scope>
