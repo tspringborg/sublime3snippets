@@ -1,0 +1,10 @@
+<snippet>
+   <content><![CDATA[
+const scrollElm = document.scrollingElement || document.documentElement
+const targetPos = ${1:this.\$el.offsetTop}
+${2:TweenMax.to(scrollElm, ${3:0.4}, \{ scrollTo: targetPos \})}
+]]></content>
+   <tabTrigger>scrollTo</tabTrigger>
+   <scope>source.js</scope>
+   <description>es6 scroll to something</description>
+</snippet>
