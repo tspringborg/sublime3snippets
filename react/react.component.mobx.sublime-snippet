@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+import React, { Component } from 'react'
+import { useStrict, observable } from 'mobx'
+import { inject, observer } from 'mobx-react'
+
+// Strict mode so only actions can modify state
+useStrict(true)
+
+@inject('store') @observer class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+
+    render() {
+        return (
+            <div>
+                <h1>Hello world</h1>
+            </div>
+        )
+    }
+}
+
+export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>react</tabTrigger>
+	<description>base react component with mobx decorator</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
