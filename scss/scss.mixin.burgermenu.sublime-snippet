@@ -1,0 +1,55 @@
+<snippet>
+  <content><![CDATA[
+// ### must have this markup ###
+//<div class="inner"><i></i></div>
+//example usage
+//${1:@include burger-menu(2px, 5px, 'active', #000000);}
+@mixin burger-menu(\$lineheight, \$spacing, \$active-class, \$color){
+  height:\$lineheight;
+  position: relative;
+  top:50%;
+  transform:translateY(-50%);
+  i{
+    background-color: $color;
+    height:\$lineheight;
+    width:100%;
+    display: block;
+    transition: all 200ms \$easeOutCubic;
+  }
+  &:after,
+  &:before{
+    position: absolute;
+    content:"";
+    width:100%;
+    background-color: \$color;
+    height:\$lineheight;
+    transition: transform 250ms \$easeOutCubic;
+  }
+  &:before{
+    top:-\$spacing;
+  }
+  &:after{
+    bottom:-\$spacing
+  }
+  &.#{\$active-class}{
+    &:after{
+      transform:rotate(45deg);
+      bottom:0;
+    }
+    &:before{
+      transform:rotate(-45deg);
+      top:0;
+    }
+    i{
+      height:0px;
+    }
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mixin burger</tabTrigger>
+  <description>burger menu mixin</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>
