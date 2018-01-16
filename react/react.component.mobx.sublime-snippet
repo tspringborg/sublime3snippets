@@ -11,9 +11,9 @@ useStrict(true)
 
     render() {
         return (
-            <div>
-                <h1>Hello world</h1>
-            </div>
+            ${2:<div>
+                ${3:<h1>Hello world</h1>}
+            </div>}
         )
     }
 }
