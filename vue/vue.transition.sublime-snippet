@@ -1,0 +1,59 @@
+<snippet>
+	<content><![CDATA[
+<template>
+    <transition
+        name="${1:${TM_FILENAME/(\w+)\.vue/\1/g}}"
+        @enter="enter"
+        @leave="leave"
+        @beforeEnter="beforeEnter"
+        @beforeLeave="beforeLeave"
+        @afterLeave="afterLeave"
+        @afterEnter="afterEnter"
+        @css="false"
+        appear
+    >
+        <slot></slot>
+    </transition>
+</template>
+
+<script>
+    export default {
+        props: {
+            out: {
+                default: 2.2,
+            },
+            in: {
+                default: 0.4,
+            },
+            inDelay: {
+                default: 0,
+            },
+            outDelay: {
+                default: 0,
+            },
+        },
+        methods: {
+            beforeEnter(el) {
+            },
+            beforeLeave(el) {
+            },
+            enter(el, done) {
+            	done()
+            },
+            leave(el, done) {
+                done()
+            },
+            afterEnter(el) {
+            },
+            afterLeave(el) {
+            },
+        },
+    }
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vuetransition</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.vue, source.js</scope>
+	<description>Vue custom transition with js hooks</description>
+</snippet>
