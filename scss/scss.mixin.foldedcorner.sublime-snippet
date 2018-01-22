@@ -1,0 +1,23 @@
+
+
+<snippet>
+  <content><![CDATA[
+@mixin folded-corner(\$size, \$color-inside, \$color-outside){
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 #{\$size} #{\$size} 0;
+    border-style: solid;
+    border-color: #{\$color-inside} #{\$color-outside};
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mixin foldedcorner</tabTrigger>
+  <description>foldedcorner mixin</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>
