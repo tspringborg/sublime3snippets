@@ -1,8 +1,22 @@
 <snippet>
    <content><![CDATA[
 const scrollElm = document.scrollingElement || document.documentElement
-const targetPos = ${1:this.\$el.offsetTop}
-${2:TweenMax.to(scrollElm, ${3:0.4}, \{ scrollTo: targetPos \})}
+const rect = ${1:el}.getBoundingClientRect()
+// rect.y is more accurate.. but it doesn't work in IE
+// centered in viewport
+let targetPos = scrollElm.scrollTop + (rect.top - (window.innerHeight / 2) + (rect.height / 2))
+
+// scroll instantly?
+window.scrollTo(0, targetPos)
+
+// or animate it?
+const obj = { y: scrollElm.scrollTop }
+TweenMax.to(obj, 1, {
+    y: targetPos,
+    onUpdate() {
+        window.scrollTo(0, obj.y)
+    },
+})
 ]]></content>
    <tabTrigger>scrollTo</tabTrigger>
    <scope>source.js</scope>

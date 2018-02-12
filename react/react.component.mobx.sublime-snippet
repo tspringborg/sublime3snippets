@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 import React, { Component } from 'react'
-import { useStrict, observable } from 'mobx'
+import { useStrict } from 'mobx'
 import { inject, observer } from 'mobx-react'
 
 // Strict mode so only actions can modify state
