@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<View style={${1:\{\}}}>${2}</View>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rnview</tabTrigger>
+	<description>react native View component</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

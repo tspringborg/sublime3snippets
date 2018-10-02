@@ -3,8 +3,13 @@
 const scrollElm = document.scrollingElement || document.documentElement
 const rect = ${1:el}.getBoundingClientRect()
 // rect.y is more accurate.. but it doesn't work in IE
-// centered in viewport
+
+// Option 1: centered in viewport
 let targetPos = scrollElm.scrollTop + (rect.top - (window.innerHeight / 2) + (rect.height / 2))
+
+// Option 2: top of viewport + margin
+// let margin = 80
+// let targetPos = scrollElm.scrollTop + rect.top - margin
 
 // scroll instantly?
 window.scrollTo(0, targetPos)

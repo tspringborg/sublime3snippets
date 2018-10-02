@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+new Promise((resolve, reject) => {
+  ${1:setTimeout(() => {
+    resolve()
+  \},500)}  
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>prom</tabTrigger>
+	<description>Regular promise</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js,text.html.vue</scope>
+</snippet>

@@ -5,10 +5,10 @@
         name="${1:${TM_FILENAME/(\w+)\.vue/\1/g}}"
         @enter="enter"
         @leave="leave"
-        @beforeEnter="beforeEnter"
-        @beforeLeave="beforeLeave"
-        @afterLeave="afterLeave"
-        @afterEnter="afterEnter"
+        @before-enter="beforeEnter"
+        @before-leave="beforeLeave"
+        @after-leave="afterLeave"
+        @after-enter="afterEnter"
         @css="false"
         appear
     >

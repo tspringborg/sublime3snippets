@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+import React, { Component } from 'react'
+
+function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}(WrappedComponent) {
+    return class extends Component {
+        render() {
+            return (
+                <WrappedComponent {...this.props}/>
+            )
+        }
+    }
+}
+export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reactHOC</tabTrigger>
+	<description>base react HOC component</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+import React, { Component } from 'react'
+import { observer } from 'mobx-react'
+import { View, Image, Text} from 'react-native'
+import EStyleSheet from 'react-native-extended-stylesheet'
+
+@observer class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+
+    render() {
+    	const styles = EStyleSheet.create({
+    		view: {
+    			backgroundColor: 'red',
+    		}
+        }) 
+        return (
+            <View style={styles.view}>
+                <Text style={{}}>${1:${TM_FILENAME/(\w+)\.js/\1/g}}</Text>
+            </View>
+        )
+    }
+}
+
+export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rncomponent</tabTrigger>
+	<description>react native component with mobx</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

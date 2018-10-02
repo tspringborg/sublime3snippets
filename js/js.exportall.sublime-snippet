@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+// exports all filetypes in folder as modules with their filename
+// use like this
+// import modules from 'path/to/folder/containing/this/file'
+
+const filetypes = [
+	'js',
+]
+const contextRegex = new RegExp(`\.\${filetypes.join('|')}\$`)
+const keyRegex = new RegExp(`/(\.\/|\.\${filetypes.join('|')})`, 'g')
+const files = require.context('.', false, contextRegex)
+const modules = {}
+files.keys().forEach((key) => {
+    if (key === './index.js') return
+    let f = files(key)
+    // in some build setups default is undefined.
+    if (typeof f.default !== 'undefined') {
+        f = f.default
+    }
+    modules[key.replace(keyRegex, '')] = f
+})
+export default modules
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exportall</tabTrigger>
+	<description>exports all filetypes in folder as modules with their filename</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
