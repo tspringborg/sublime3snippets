@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: '${2:${TM_FILENAME/(\w+)\.vue/\1/g}}',
+        name: '${2:${TM_FILENAME/(\w+)\.vue/\u\1/g}}',
         data() {
             return {
             }
